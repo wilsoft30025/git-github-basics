@@ -23,4 +23,38 @@
 
                     => Add All files we use (.)
 
+                    When this is done, files will now be commited and will change from red to green
+
+              ---------
+            -> git commit -m "first commit"
+               ---------
+                    After adding files in the staging area in the previous command, you then commit it by using the above command
+
+                    m: means message
+
+                    NOTE:
+                        After committing for the first time, you will get an error because we have not attached an email for the current user. Git wants to know who we are specifically i.e our account identity. Other people can easily detect who created this
+                            ---
+                            Email and Username
+                            ---
+
+                            Use the ff commands to do that
+
+
+                            CONFIGURE your Local GIT intallation with NAME and EMAIL used on GITHUB
+                            -----------------------------------------------------------------------
+                            NOTE: This is done ONES
+                                -> Open your terminal and enter the ff. codes
+
+                                    -------------------------------------------------
+                                    git config --global user.name "Wilfred Afagbegee"
+                                    -------------------------------------------------
+                                        hit enter and repeat below
+
+                                    ---------------------------------------------------------
+                                    git config --global user.email "waksoftwareltd@gmail.com"
+                                    ---------------------------------------------------------
+                                        hit enter and repeat below without repeating
+
+
 */
