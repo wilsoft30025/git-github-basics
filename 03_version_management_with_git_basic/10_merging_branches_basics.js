@@ -12,5 +12,13 @@
             ----------------------
             git merge third-branch
             ----------------------
-                So here we merged the third branch to our master branch
+                So here we merged the third branch to our master branch. When Merging is done successfully, you will find all your files shown...
+
+                You can use the "git log" to access the activity logs to confirm if all commits are shown
+
+                When the logs were shown you saw something like 
+                    -----
+                    (HEAD -> master, third-branch)
+                    -----
+                        Move to next lecture for proper explanation
 */
