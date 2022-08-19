@@ -23,10 +23,13 @@
             git checkout second-branch
             --------------------------
                 After the above command you will see yourself in the new branch. Take note that Your New Branch will be the same as Your Master Branch...
-                
+
 
         Another method for creating a new branch and automatically switching to it can be done using the command below
             ----------------------------
             git checkout -b third-branch
             ----------------------------
+                After working on this branch extensively, and commiting it, if you switch to the master branch you will not see the change...
+
+                In the next lecture you will see how to merge your master branch
 */
