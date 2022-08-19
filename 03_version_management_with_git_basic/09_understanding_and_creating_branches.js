@@ -1,35 +1,52 @@
 /* 
-    Branches and Commits
+    BRANCHES and COMMITS
     ---
-        The Master branch is the default name for the first branch we create in git project. We discussed earlier that if you want to add some new features, it is best we create a copy of the master branch, work on it and then later merge it to the master branch...
+        The MASTER Branch is the Default name for the first branch we create in git project. 
+        
+        NOTE:
+            We discussed earlier that if you want to ADD SOME NEW FEATURES, it is best we CREATE a COPY of the Master (original) branch, work on it and then later MERGE it to the master branch...
 
-        To get the overview of your branches you use the ff command
+        To get the OVERVIEW of all your branches you use the ff command
             ----------
             git branch
             ----------
-                this displays all your branches
+                this displays ALL the branches in your project. By default you will only see 
+                    --------
+                    * master
+                    --------
+                        the * means that is the default at the moment
 
 
-        To create a new branch use the ff command
+
+        To CREATE a NEW BRANCH use the ff command
             ------------------------
             git branch second-branch
             ------------------------
                 NOTE:
-                    No quotation marks and branch names cannot contain spaces
+                    Here there is No Quotation marks and Branch Names cannot contain spaces
+                        i.e 
+                            -----------------------------
+                            git branch branch-name-to-use
+                            -----------------------------
+                                To check if the branch was created successfully use the use "git branch"
 
 
-        To navigate to a specific branch use the ff command
+
+        To NAVIGATE / SWITCH to a Specific Branch of your choice use the ff command
             --------------------------
             git checkout second-branch
             --------------------------
-                After the above command you will see yourself in the new branch. Take note that Your New Branch will be the same as Your Master Branch...
+                NOTE: 
+                    The CHECKOUT command is used to switch between different branches. After executing the above command you will see yourself in the new branch. 
+                    
+                    Take note that Your New Branch will be the same/equal as Your Master Branch for the first time of creation...
 
 
-        Another method for creating a new branch and automatically switching to it can be done using the command below
+        ALTERNATIVE / ANOTHER method for CREATING a New Branch and Automatically switching to it can be done using the command below
             ----------------------------
             git checkout -b third-branch
             ----------------------------
-                After working on this branch extensively, and commiting it, if you switch to the master branch you will not see the change...
+                After working on this branch Extensively, and also adding it the Staging Area, and Commiting it, if you switch to the master branch you will not see the change...
 
                 In the next lecture you will see how to merge your master branch
 */
