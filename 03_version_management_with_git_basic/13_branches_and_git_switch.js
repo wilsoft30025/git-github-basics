@@ -22,4 +22,8 @@
                         
         NEW BRANCHES
         ---
+            To create a New branch, use the ff comand
+                 ---------------------------
+                 git switch -c fourth-branch
+                 ---------------------------
 */
