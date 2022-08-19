@@ -49,4 +49,10 @@
                 After working on this branch Extensively, and also adding it the Staging Area, and Commiting it, if you switch to the master branch you will not see the change...
 
                 In the next lecture you will see how to merge your master branch
+
+
+        IMPORTANT:
+            In the later version of Git, you can switch between branches by using the "Switch" Command... 
+                visit the note 
+                    13_branches_and_git_switch.js
 */
