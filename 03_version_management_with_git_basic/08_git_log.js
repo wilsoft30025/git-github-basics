@@ -1,5 +1,5 @@
 /* 
-    Diving Deeper into Commits with "git log"
+    DIVING Deeper into Commits with "git log"
     --------    
         To see all commits in the current branch, run the following command
             -------
@@ -12,6 +12,13 @@
 
         NOTE:
             The latest commit is always on Top
+
+        IMPORTANT:
+                To QUIT from git log use enter the letter
+                    --
+                    q
+                    --
+                        This will terminate the terminal from running
 
 
     ROLL BACK (git checkout)
