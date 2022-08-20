@@ -27,5 +27,35 @@
                     After all the changes made let's "add it to the staging area" and "commit it"
 
                     Before we Merge it to the Master we have to switch to the "* master" branch
-                
+
+                    To merge it we use the ff command
+                        -----------------
+                        git merge feature
+                        -----------------
+                            when executed successfully you will get the sample message
+
+                                ------------------------------------------------
+                                Updating 595e676..caaf808
+                                    Fast-forward
+                                        04_diving_deeper_into_git/05_applying_the_fast_forward_merge.js | 18 ++++++++++++++++++
+                                        1 file changed, 18 insertions(+)
+                                ------------------------------------------------
+                                    In your message you will see the Merge Type to "Fast-forward"
+
+                                NOTE:
+                                    As discussed in the previous lesson, the Fast-forward has the advantage that 
+                                        ...no new merge commit was made in the master branch
+                                        ...with the Fast-forward merge we don't create a new commit bu we just move the pointer off the HEAD to the Latest commit in the Feature branch
+
+
+
+        ANOTHER METHOD
+        ---
+            Let's say we are currently in the "* master" branch, use the ff. command
+                --------------------------
+                git merge --squash feature
+                --------------------------
+                    squash means it will put together all the commits we had in our future branch into the latest commit so that one one commit is added into the master branch in the end.
+
+                    after executing the above command, it still used "Fast-forward" approach              
 */
