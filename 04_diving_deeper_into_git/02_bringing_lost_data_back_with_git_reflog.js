@@ -47,6 +47,7 @@
                                     ---------------------
                                     git switch -c feature
                                     ---------------------
+                                        This creates a new branch called "feature"
 
 
 */
