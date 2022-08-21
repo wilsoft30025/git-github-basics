@@ -2,9 +2,9 @@
     Combining Master and Feature Branches
     ---
         Master = Main project branch
-            ...this is the first branch you ctreate in your project and also the braning containing your latest deployed status of your website
+            ...this is the FIRST branch you create in your project and also the BRANCH containing your latest deployed status of your website
 
-            so let's say you added more commits to your master branch and you later realized you need some feature that you want to work on it in a separate branch and later merge it
+            so let's say you added more COMMITS to your master branch and you later realized you need some new FEATURE that you want to work on in a separate branch and later MERGE it to the "master" branch
 
         Feature = Separate branch "based" on master branch
 
