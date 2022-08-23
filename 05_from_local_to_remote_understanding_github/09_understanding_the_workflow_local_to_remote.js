@@ -1,12 +1,17 @@
 /* 
     MORE BRANCHES?
     ---
-        Now in the previous lesson after pushing GitHub, out our local machine when we initiated "git branch -a" we saw the ff.
+        Now in the previous lesson after pushing to GitHub, on our local machine when we initiated 
+        ---
+        "git branch -a" 
+        --- 
+            ...we saw the ff. results below
               -------------------
               * main
               remotes/origin/main
               -------------------
-                With "git remote origin" we established a connection between our Local Repo and the Remote Repo. Take note that is not related to our branches until we pushed something to the remote repo.
+                With "git remote origin" we established a connection between our LOCAL Repo and the REMOTE Repo. 
+                Take note that is not related to our branches until we pushed something to the remote repo.
 
                 Let's see this from a theoretical perspective; 
                     ----------------------
@@ -17,7 +22,8 @@
                             Remote Tracking branch ---> remote/origin/main
                             ----------------------------------------------
                                 ...that was the red branch we saw when we executed the command "git branch -a". The Remote Tracking Branch is basically BETWEEN our LOCAL and REMOTE branches.
-                                    -> It can be termed as a local copy of the Remote Branch i.e local copy of our master branch is copied into the remote master tracking branch
+                                    -> It can be termed as a LOCAL COPY of the Remote Branch i.e local copy of our master branch is copied into the remote master tracking branch
+                                    
                                 ...as soon as the remote tracking branch was created, we add the changes to our main branch and that is now the remote branch in our origin repo
                                     ---------------------------------------------
                                     Remote Branch ("origin" repository) ---> main

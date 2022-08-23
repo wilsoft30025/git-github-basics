@@ -58,8 +58,15 @@
                         -------------
                         
                             This displays
+                                -------------------
                                 * main
                                 remotes/origin/main
+                                -------------------
+
+                    To see the only REMOTE BRANCH, use the command
+                        -------------
+                        git branch -r
+                        -------------
 
 
 
