@@ -1,0 +1,33 @@
+/* 
+    UNDERSTANDING THE PERSONAL ACCESS TOKEN
+    ---
+        NOTE:
+            When you Try to PUSH files from your Local Repo to Github and you are asked to SIGNIN, You can 
+                -> Login from the Browser or
+                -> Create a Persona Access Token by usin the ff. steps
+
+        It is very important that we need a PERSONAL ACCESS TOKEN to push our data into our REPO... We as creators of the Repo can create the "Access Token"
+
+        Personal access tokens function like ordinary OAuth access tokens. They can be used instead of a password for Git over HTTPS, or can be used to authenticate to the API over Basic Authentication.
+
+        In you GitHub follow the steps
+            ...Go to Setting
+            ...Click on Developers Settings Menu
+            ...Click on Personal Access Tokens
+                    If you have already created a personal access token, you can see it there.
+
+                    Generate new Token
+                    ---
+                        ...you will be asked to re-authenticate
+                        ...Note meeans describe your Token
+                                eg. 
+                                    Token for Github module in Git Notes
+                        ...Leave Expiration to 30days
+                        ...Define access the Token Grants
+                            ..Tick "repo", "workflow", "write:packages", "delete:packages", "gist", "user", "delete_repo", "write:discussion"
+
+                            Now Generate Token.
+                                After Token is generated, make sure you copy it and paste it in the GUI requesting for the Login and finally SignIn
+
+                            When successfully Push
+*/
