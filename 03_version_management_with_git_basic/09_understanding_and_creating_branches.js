@@ -1,7 +1,7 @@
 /* 
     BRANCHES and COMMITS
     ---
-        The MASTER Branch is the Default name for the first branch we create in git project. 
+        The "MASTER" Branch is the Default name for the first branch we create in git project. 
         
         NOTE:
             We discussed earlier that if you want to ADD SOME NEW FEATURES, it is best we CREATE a COPY of the Master (original) branch, work on it and then later MERGE it to the master branch...
@@ -14,7 +14,7 @@
                     --------
                     * master
                     --------
-                        the * means that is the default at the moment
+                        the * means that is the "default" at the moment
 
 
 
@@ -39,10 +39,15 @@
                 NOTE: 
                     The CHECKOUT command is used to switch between different branches. After executing the above command you will see yourself in the new branch. 
                     
-                    Take note that Your New Branch will be the same/equal as Your Master Branch for the first time of creation...
+                    IMPORTANT:
+                        Take note that 
+                            ----------------------------
+                            New Branch === Master Branch
+                            ---------------------------- 
+                                for the first time of creation...
 
 
-        ALTERNATIVE / ANOTHER method for CREATING a New Branch and Automatically switching to it can be done using the command below
+        ALTERNATIVE / ANOTHER method for "CREATING" a New Branch and Automatically "SWITCHING" to it can be done using the command below
             ----------------------------
             git checkout -b third-branch
             ----------------------------

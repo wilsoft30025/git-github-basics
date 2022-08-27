@@ -25,7 +25,7 @@
             ----------------
             git reset HEAD~1
             ----------------
-                this command is default reset... it
+                this command is DEFAULT reset... it
                     -> deletes the commit
                     -> deletes the associated file in the staging area i.e "git ls-file" to check
                     -> keeps your files in the working directory
@@ -45,4 +45,8 @@
                     -> deletes the changes from the working directory
 
                         i.e "git ls-file" to check
+
+
+    NOTE:
+        Make sure you use the "RESET" commands with care
 */

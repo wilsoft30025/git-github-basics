@@ -10,7 +10,7 @@
         --------
         git init
         --------
-            Create empty Git Repository. This is done ones before you start your project
+            Create empty Git Repository. This is done ones before you to start your project
 
         ----------
         git status
@@ -20,7 +20,7 @@
         -------
         git log
         -------
-            Displays all commits of our current branch and it allows us to "checkout" specific commits by using the "ids" provided
+            Displays all "COMMITS" of our current branch and it allows us to "CHECKOUT" specific commits by using the "ids" provided
 
         ------------
         git ls-files
@@ -58,7 +58,7 @@
         git branch branchname
         git switch branchname     ...only Git 2.23+
         ---------------------
-            Create a new branch
+            Create a new branch. But for "switch" if the branch name already exists, we will create a new branch instead
 
         -----------------------
         git checkout branchname
@@ -69,7 +69,7 @@
         git checkout -b branchname
         git switch -c branchname     ...only Git 2.23+
         --------------------------
-            Create and Access new breanch 
+            Create and Access new branch at the same time 
 
         ---------------------
         git merge otherbranch
@@ -93,7 +93,7 @@
 
         Unstaged Changes (changes only made in our working directory)
         ---
-            Meaning we added either an existing file (part of a previous commit and we added more code) or a new file to our working directory. Both cases happed in a way that we did not add new changes to our Staging Area.
+            Meaning we added either an existing file (part of a previous commit and we added more code) or a new file to our working directory. Both cases happened in a way that we did not add new changes to our Staging Area.
 
             For files which was part of a PREVIOUS commit we have 2 options
                 -------------------------

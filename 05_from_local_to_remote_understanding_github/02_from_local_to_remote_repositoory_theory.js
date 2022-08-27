@@ -2,10 +2,12 @@
     CONNECTING GIT & GITHUB - LOCAL TOM EMPTY REPO
     ---
         Git
+        ---
             Local Repository
                 ...local project manage by Git
 
         GitHub
+        ---
             Remote Repository
                 ...local repo is brought here to be accessible in the Cloud
 

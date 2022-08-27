@@ -1,11 +1,11 @@
 /* 
     DELETING DATA - OVERVIEW
     ---
-        How can we delete DATA from our Version management?
+        How can we delete DATA from our Version Management?
             Data here means
-                ...commits
-                ...branches
-                ...files etc.
+                -> commits
+                -> branches
+                -> files etc.
 
                 Folow the next lecture for deleting data
 */

@@ -1,14 +1,17 @@
 /* 
     Bringing Lost Data Back with Git Reflog
     ---
-        Let say you mistakenly deleted and information, you can bring it back with Git Reflog... The Reflog stores all changes we make in our Git Project...
+        Let say you mistakenly DELETED an information, you can bring it back with "Git Reflog"... 
+            The Reflog stores all changes we make in our Git Project...
 
-        This is how the Git Reflog works... Let's say we have lots and commit and we used the "git reset" to delete our commit one step back, we can bring it back by using the ff command
+        This is how the Git Reflog works... 
+        
+        Let's say we have lots and commit and we used the "git reset" to delete our commit one step back, we can bring it back by using the ff command
         
             ----------
             git reflog
             ----------
-                executing the command above we see an OVERVIEW of all the changes we applied in this current branch. This does not save it forever but it's a 30days rollback storage. It contains all commits, checkouts etc... You can see that there is HASH numbers in front of every step.
+                executing the command above we see an OVERVIEW of all the changes we applied in this current branch. This does not save it forever but it's a 30days rollback storage logic. It contains all commits, checkouts etc... You can see that there is HASH numbers in front of every step.
 
                 Example of how git reflog displays overview
                     -------------------------------------------------------------------
@@ -35,7 +38,7 @@
                         ---------------------------
                         git branch -D fourth-branch
                         ---------------------------
-                            Let's say after deleting you switched to the "* master" branch. Now go to you reflog and check exactly where you had that specific branch you delete and copy its hash number 
+                            Let's say after deleting, you switched to the "* master" branch. Now go to your reflog and check exactly where you had that specific branch you deleted and copy its hash number. Here you will refere to when the branch was committed instead
                                 i.e f3a76a2
 
                             Now checkout the hash i.e
@@ -48,6 +51,4 @@
                                     git switch -c feature
                                     ---------------------
                                         This creates a new branch called "feature"
-
-
 */

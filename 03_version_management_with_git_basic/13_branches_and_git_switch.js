@@ -4,9 +4,9 @@
         As at now all the Git commands we've learned works with all the Git Versions. Since Git has improved we see additional commands all the time...
 
         Some of the new commands can be used when you use Git version 2.23 and above
-            ---
+            -------------
             git --version
-            ---
+            -------------
                 to check the current version you are using
 
 
@@ -22,7 +22,7 @@
                         
         NEW BRANCHES
         ---
-            To create a New branch, use the ff comand
+            To create a New branch using the switch command, use the ff comand
                  ---------------------------
                  git switch -c fourth-branch
                  ---------------------------

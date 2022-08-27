@@ -1,5 +1,5 @@
 /* 
-    UNDOING / REVERTING UNSTAGED CHANGES
+    UNDOING / REVERTING STAGED CHANGES
     ---
         Let's say we made changes to some file and you stage it by using 
             -----------------
@@ -11,7 +11,7 @@
         METHOD 1
         ---
 
-            After adding it and you realize it was a mistake, you require using the ff. 2 COMMANDS
+            After adding it and you realize it was a mistake, you require using the ff. 2 COMMANDS. Before we can "checkout" we need to first "reset"
 
                 FIRST command
                     -----------------
@@ -28,7 +28,7 @@
 
         METHOD 2
         ---
-            you require using the ff. 2 COMMANDS. Another command is restore
+            you require using the ff. 2 COMMANDS. Another command is "RESTORE" which works the same as the "RESET"
 
                 FIRST command
                     ----------------------------

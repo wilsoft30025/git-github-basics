@@ -18,12 +18,12 @@
             ------------------
             git branch -M main
             ------------------
-                ...the next thing to do is to execute the above command to RENAME our old "MASTER" branch to "MAIN". After executing, just use the "git branch" to confirm whether our branch name has changed
+                ...the next thing to do is to execute the above command to RENAME our old "MASTER" branch on our local machine to "MAIN". After executing, just use the "git branch" to confirm whether our branch name has changed
                 ...or You can SKIP this STEP to maintain the name "MASTER"
 
-            ----------------------------
-            git push -u origin HEAD:main
-            ----------------------------
+             -----------------------        ----------------------------
+             git push -u origin main   or   git push -u origin HEAD:main
+             -----------------------        ----------------------------
                 ... the next thing to do is to execute the above command. 
                 ... git push
                         This command means pushing our local information from the local repo to a remote repo

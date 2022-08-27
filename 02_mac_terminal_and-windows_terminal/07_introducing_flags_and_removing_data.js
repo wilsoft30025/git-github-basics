@@ -12,19 +12,19 @@
 
         Let's say we want to know extra info of our files...
             -----
-            ls -s
+            ls -l
             -----
 
         To get a MANUAL for available flags for a specific command. use eg.
             -----
             man ls
             -----
-                This gives you a full documentation fo the "ls" command
+                This gives you a full documentation fo the "ls" command. "man" means Manual
 
         To exit from the MANUAL just 
-            -------
+                  -
             press q
-            -------
+                  -
 
 
     HOW TO REMOVE A FOLDER WHICH CONTAIN FILES
@@ -34,10 +34,10 @@
         ------
             let see the documentation of the "rm" command
 
-        Make sure you are in the mother Folder containing the folder you want to deleteand exetute the command below
+        Make sure you are in the mother Folder containing the folder you want to delete and exetute the command below
             ----------
             rm -r Test
             ----------
                 NOTE:
-                    Be very careful when using this command to delete because it is irreversible
+                    Be very careful when using this command to DETELE because it is IRREVERSIBLE
 */

@@ -7,22 +7,27 @@
             ---------
             git stash
             ---------
-                Let's assume you were typing something new in your file after your last commit, The moment you execute that command above, what you typed would be cleared and you will be back to your Latest Commit...
+                Let's assume you were typing something new in your file after your last commit, The moment you execute that command above, what you typed would be cleared and you will be back to your Latest Commit. You will see the ff. messageb below
+                    ----------------------------------------------------------------------------
+                    "Saved working directory and index state WIP on master: 2402e4c file1 added"
+                    ----------------------------------------------------------------------------
 
-                But the momemt to execute the command below
+                But if you want to have your changes back then you have to execute the ff. command
                     ---------------
                     git stash apply
                     ---------------
                         you would have your changes back with a message that "changes not staged for commit" displaying the filename which needs to be modified, where you can staged the changes and finally commit the changes if you want to...
 
-                        Stash allows you to save unstaged changes and to access these whenever you want todo so. So assuming you modified the file again, and you stash it again and again using "git stash"
+                        STASH allows you to SAVE "UNSTAGED" changes and to access these whenever you want todo so. So assuming you modified the file again, and you stash it again and again using "git stash"
 
-                        Let's assume we execute the "git stash apply" you will only see the latest modified. So if we want to see all the "stash" files change, use the ff. comand
+                        Let's assume we execute the "git stash apply" you will only get the LATEST modified. 
+                        
+                        So if we want to see all the "stash" files change, use the ff. comand
 
                             --------------
                             git stash list
                             --------------
-                                This will display the overview of all the stash changes listed. The one on top with the index 0 is always the latest stash data. 
+                                This will display the overview of all the stash changes listed. The one on TOP with the index "0" is always the LATEST stash data. 
                                 
                                 eg. overview of the lists is as follows
                                     ----------------------------------------------

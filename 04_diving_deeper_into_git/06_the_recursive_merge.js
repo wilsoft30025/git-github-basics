@@ -12,20 +12,35 @@
             ---------------------
             git switch -c feature
             ---------------------
-                After working intensively on the feature branch and committed successfully, this we we want to MERGE it to the master branch using "recursive merge"
+
+                After working intensively on the feature branch and committed successfully, then we want to MERGE it to the master branch using "recursive merge"
                     -------------------------
                     git merge --no-ff feature
                     -------------------------
-                        when merged successfully, you you see a success messsage saying 
+                        when merged successfully, you will see a success messsage saying 
                             "Merge made by 'recursive' strategy". 
                         
                         This strategy is called "non fast-forward"
+
+                    Now wif we check our log "git-log" you will see something interesting, we now have a complete history of the feature file in our master branch i.e. all commits
+
+                    Now the latest commit would be named automatically as "Merge branch 'feature' into master". with the commit as follow
+                        ----------------------------------------------------------------
+                        commit e969a2c9e1cbd46df9061f0c922a3a3a7f195143 (HEAD -> master)
+                        ----------------------------------------------------------------
+
+                    NOTE:
+                        If we use the Fast Forward Merge, the lastes commit will be llike below
+                            ------------------------------------------------------------------------
+                            commit e969a2c9e1cbd46df9061f0c922a3a3a7f195143 (HEAD -> master,feature)
+                            ------------------------------------------------------------------------
 
 
 
         IMPORTANT:
             We use the "Recursive" strategy if
-                ...you have changes in the "feature" branch and if you also have new commits in the "master" branch. Meaning the base of the 2 branches is not the same
+                ...you have changes in the "feature" branch and if you also have new commits in the "master" branch. 
+                        Meaning the base of the 2 branches is not the same
                 ...additional commits in both the master & feature branch after the feature branch was created
                 ...additional (merge) commit is created in the master branch
 
@@ -35,5 +50,4 @@
                         git merge feature
                         -----------------
                             It will intelligently apply the "Recursive" merge because there were changes in the feature branch and commits in the master branch
-
 */

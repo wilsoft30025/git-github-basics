@@ -5,9 +5,9 @@
         ---
             -> Distributed Version-Control System
             -> Git is installed and hosted on local system
-            -> No internett connection required
+            -> No internet connection required
             -> It is a command line tool
-            -> It provides functionalities like Version Control Syste, Source Code Management
+            -> It provides functionalities like Version Control System, Source Code Management
 
         
         GITHUB

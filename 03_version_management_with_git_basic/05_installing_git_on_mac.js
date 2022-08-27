@@ -7,7 +7,8 @@
                 Click Download for MacOS
                     There are so many methods for the installation.
 
-                    First: 
+                    First:
+                    ----- 
                         Visit Homebrew (https://brew.sh/)
 
                         This is a Package Installer for Mac Systems and it makes installing Git easy. We visit the website above
@@ -15,7 +16,7 @@
                         Copy the Install Homebrew Url and paste in your command line and press enter, provide your system password and wait for it to finish installation.
 
                         IMPORTANT:
-                            Most at times after installing Homebrew, you normally get the ff errors when you execute any command with brew
+                            Most at times after installing Homebrew for the first time, you normally get the ff errors when you execute any command with brew
                                 ----
                                 zsh: command not found: brew
                                 ----
@@ -47,7 +48,5 @@
                                 ---
 
                                 NOTE:
-                                    In case it does not show, QUIT the terminal and open again
-
-                                
+                                    In case it does not show, QUIT the terminal and open again                              
 */

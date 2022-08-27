@@ -20,15 +20,15 @@
         ---
             -> LOCAL Version Control System
                ---
-                    This was the first version control system which was introduced into the market. It was maintained and hosted on the Local Developers Machine they are working on. Disadvantage was if the the machine crashes, all data is lost and also collaboaration was a hug nightmare for developers.
+                    This was the FIRST Version Control system which was introduced into the market. It was maintained and hosted on the Local Developers Machine they are working on. Disadvantage was if the the machine crashes, all data is lost and also collaboaration was a huge nightmare for developers.
 
             -> CENTRALIZED Version Control System
                ---
-                    Here improved on the Local Version Control System by having a Server holding the master Repo, where all workstation commits their code files to it. Here collaboration becomes easier BUT disadvantage is that if something happens to the main SERVER, we loose everything
+                    Here IMPROVED on the Local Version Control System by having a SERVER holding the MASTER Repo, where all workstation commits their code files to it. Here collaboration becomes easier BUT disadvantage is that if something happens to the main SERVER, we loose everything
 
             -> DISTRIBUTED Version Control System
                ---
-                This is an improvement on top of Centralized Version Control System. Cloud based Storage to receive code files from Local Repo
+                This is an IMPROVEMENT on top of CENTRALIZED Version Control System. Cloud based Storage to receive code files from Local Repo
 
         What Version Control Can Do
         ---
@@ -82,11 +82,12 @@
 
             -> STAGING Area:
             ----- 
-                    This is the good place to let Git know the things you want to IGNORE/TRACK using git add
+                    This is the good place to let Git know the things you want to IGNORE/TRACK using "git add"
 
             -> LOCAL Repository: (git commit i.e .git)
             ----- 
-                    Where final files are committed. Assuming you make a mistake and you want to rollback, you will use "git checkout"
+                    Where final files are committed. Assuming you make a mistake and you want to rollback, you will use 
+                    "git checkout"
 
         If you don't have GIT installed, you can install it by downloading it per your specific operating system
 

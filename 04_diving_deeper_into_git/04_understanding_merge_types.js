@@ -38,10 +38,13 @@
 
 
                 How can we merge the "feature" branch into the "master" branch? The "FAST-FORWARD" merge works if
-                    -> No additional commit in master (after the feature branch was created). 
-                            i.e m.3 in the master branch is the last change there
+                    IMPORTANT
+                        -------------------------------------------------------------------------------
+                        -> NO ADDITIONAL COMMIT IN MASTER BRANCH (after the feature branch was created)
+                        -------------------------------------------------------------------------------
+                            i.e 
+                                m.3 in the master branch is the last change there
                             
                     -> Merge moves HEAD forward (to f.3) but does not create new commit
-                            ones you are done with the feature branch all commits is done. We just have to tell our master branch that the latest branch in the master branch now is the f.3 commit in the end
-                        
+                            ones you are done with the feature branch all commits is done. We just have to tell our master branch that the latest branch in the master branch now is the "f.3 commit in the end"            
 */

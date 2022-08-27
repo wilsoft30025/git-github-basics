@@ -1,6 +1,6 @@
 /* 
-    Understanding .gitignore
-    ---
+    UNDERSTANDING .gitignore
+    ------------------------
         In real world projects, you may choose not to include some files in your git. This could be some confidential security information wwhich may be private
 
         Git has a feature you can use to ignore such files to be included called .gitignore

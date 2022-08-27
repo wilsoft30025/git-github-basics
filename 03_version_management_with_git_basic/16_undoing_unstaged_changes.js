@@ -1,5 +1,5 @@
 /* 
-    UNDOING / REVERTING UNSTAGED CHANGES
+    UNDOING / REVERTING "UNSTAGED CHANGES"
     ---
      Let's say our commit is successfully done. And now you apply some changes to any of your Tracked Files like what we are typing here...
 
@@ -42,4 +42,5 @@
                     -------------
                     git clean -df
                     -------------
+                        "f" means force
 */

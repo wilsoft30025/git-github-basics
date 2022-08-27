@@ -67,5 +67,10 @@
                 --------------------------
                     squash means it will put together all the commits we had in our future branch into the latest commit so that only one commit is added into the master branch in the end.
 
-                    after executing the above command, it still used "Fast-forward" approach              
+                    after executing the above command, it still used "Fast-forward" approach  
+                    
+                    now commit the changes with message example "merged feature and master". when you check the log, you will see the HEAD like this
+                        ----------------------------------------------------------------
+                        commit e969a2c9e1cbd46df9061f0c922a3a3a7f195143 (HEAD -> master)
+                        ----------------------------------------------------------------
 */

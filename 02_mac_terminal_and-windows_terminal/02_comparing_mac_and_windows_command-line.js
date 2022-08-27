@@ -1,15 +1,20 @@
 /* 
     MAC TERMINOLOGY
     ---
-        Mac comes with Text Based Tools
+        Mac comes with "Text Based Tools"
             ->  the "Terminal"
-                ... Text Input Environment ("Hardware") i.e plain computer
+                ... Text Input Environment ("Hardware") 
+                        i.e plain computer. Here we would need an environment to enter the commands
                 
             -> the "Shell"
-                ... Text Input Interface ("Software") i.e a software which brings the computer to life
+                ... Text Input Interface ("Software") 
+                        i.e a software which brings the computer to life
                 ... We have 2 types of shell 
-                    -> Bash ...old
-                    -> zsh (Z-Shell) ...latest
+                    -> Bash 
+                            ...old
+                            
+                    -> zsh (Z-Shell) 
+                            ...latest
 
 
     WINDOWS TERMINOLOGY
