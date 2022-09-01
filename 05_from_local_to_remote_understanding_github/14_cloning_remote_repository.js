@@ -22,7 +22,7 @@
                                 ----------------------------------------------------------------------
                                 "fatal: not a git repository (or any of the parent directories): .git"
                                 ----------------------------------------------------------------------
-                                    Because we are not in a Git Repository in the Direct "CLONE" folder BUT if you navigate into the EXACT folder cloned, it will work very very well
+                                    Because we are NOT in a Git Repository in the Direct "CLONE" folder BUT if you navigate into the EXACT folder cloned, it will work very very well
 
                                     Now you can exute the branch commands and it will work fine
 
@@ -36,7 +36,4 @@
                     You would be ask to "Authorized Login"... Provide your credentials and You are now good to Go
 
                     You are good to GO!!!
-
-
-
 */

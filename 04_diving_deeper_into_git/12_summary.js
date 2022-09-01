@@ -1,7 +1,6 @@
 /* 
     DEEP DIVE SUMMARY
     ---
-
         git stash
         ---
             Temporary storage for unstaged and uncommitted changes

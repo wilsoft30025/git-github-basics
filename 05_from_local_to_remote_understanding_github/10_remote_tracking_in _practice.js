@@ -6,7 +6,7 @@
               * main
               remotes/origin/main .....remote tracking branch
               -------------------
-                if we make changes and we PUSH or PULL, it stores it in the remote tracking branch and finally disburse it to the final destination
+                if we make changes and we PUSH or PULL, it stores it in the "remote tracking branch" and finally disburse it to the final destination
 
         Now with the 2 branches earlier let's say we created another branch called "feature"
             -----------------------
@@ -37,12 +37,15 @@
         CREATING BRANCH WITHIN GITHUB
         ---
             -> In your GitHub open any project
+
             -> Select the branch drop down and provide your branch name and press enter
                 ...within the branch you can create a new file in there and provide the commit name and click commit
+
             -> Now when we switch to our command prompt and execute the command "git branch -a", you will not see the new branch you created from GITHUB BY default
+
                     But to see the List of all the REMOTE branches
                         -------------
-                        git ls remote
+                        git ls-remote
                         -------------
 
             NOW to get that info from GitHub to our Local Machine we use
@@ -82,5 +85,4 @@
                         git pull origin main
                         --------------------
                             This Works very very fine
-
 */

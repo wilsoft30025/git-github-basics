@@ -10,7 +10,5 @@
                     ----------------------------
                     git push -u origin HEAD:main
                     ----------------------------
-                        This will push successfully. Now you can confirm by going to GitHub and refreshing the page.
-
-                        
+                        This will push successfully. Now you can confirm by going to GitHub and refreshing the page.                     
 */

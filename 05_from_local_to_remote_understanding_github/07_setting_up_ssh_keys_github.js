@@ -22,7 +22,7 @@
                     1. ls: 
                             this allows us to list all the content of a fiven directory
                     2. -a:
-                            makes sure that even hidden files and folders show up
+                            makes sure that hidden files and folders show up
                     3. -l:
                             this will make the format a bit easier to read i.e from top to bottom
                     4. ~/.ssh:
@@ -30,7 +30,11 @@
 
                 Press enter
 
-        2. If you don't already have "id_rsa" and "id_rsa.pub" then it means we have to create a new keys BUT if you have that files already it means you have the keys. Use the ff. code below to create new SSH
+        2. If you don't already have 
+                ------     ----------
+                id_rsa     id_rsa.pub 
+                ------     ----------
+                        then it means we have to create a new keys BUT if you have that files already it means you have the keys. Use the ff. code below to create new SSH
 
             -------------------------------------------------------
             ssh-keygen -t rsa -b 4096 -C "waksoftwareltd@gmail.com"
@@ -133,7 +137,7 @@
                 ---------------------
                 ssh -T git@github.com
                 ---------------------
-                    if it works that means our SSH is connected. You will see the ff. message below
+                    if it works then means our SSH is connected. You will see the ff. message below
                         -> Hi wilsoft30025! You've successfully authenticated, but GitHub does not provide shell access.
 
         5. Now you can push your CODE 

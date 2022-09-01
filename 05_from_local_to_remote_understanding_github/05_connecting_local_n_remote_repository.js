@@ -11,8 +11,10 @@
             -----------------------------------------------------------------------
             git remote add origin git@github.com:wilsoft30025/git-github-basics.git
             -----------------------------------------------------------------------
-                ...for the fist time execute the above code. As we discussed earlier, after executing above, we can then refer to the url using the shorthand "origin"
-                ...this will establich the connections between the repos
+                ...for the first time execute the above code. As we discussed earlier, after executing above, we can then refer to the url using the shorthand "origin"
+
+                ...this will establish the a between the repos
+
                 ...after pressing enter, you will not see any message whether successful
 
             ------------------
@@ -24,13 +26,18 @@
              -----------------------        ----------------------------
              git push -u origin main   or   git push -u origin HEAD:main
              -----------------------        ----------------------------
-                ... the next thing to do is to execute the above command. 
-                ... git push
+                -> the next thing to do is to execute the above command. 
+
+                -> git push
                         This command means pushing our local information from the local repo to a remote repo
-                ... -u
+
+                -> -u
                         This establishes an upstream between a Local Branch and the Remote Branch.
-                ... "origin" is now a reference to our specific repo unique URL
-                ... If you did not "rename" the branch previous, you can maintain the name "master" else if you renamed it to "main" then you can execute above
+
+                -> "origin" is now a reference to our specific repo unique URL
+
+                -> If you did not "rename" the branch previous, you can maintain the name "master" else if you renamed it to "main" then you can execute above
+
                 ... After executing for the First, you will receive an error message that connection cannot be established. With my machine i had this message
                     -----------------------------------------------------------------------------
                     The authenticity of host 'github.com (140.82.121.3)' can't be established.
@@ -39,11 +46,16 @@
                     Are you sure you want to continue connecting (yes/no/[fingerprint])? 
                     -----------------------------------------------------------------------------
 
-                    Sometimes it also ask you to "Authenticate" by Logging in for the First Time OR You enter PersonaL Access Token
+                    Sometimes it also ask you to "AUTHENTICATE" by Logging in for the First Time OR You create a PersonaL Access Token to serve as a secutrity feature to help push your code successfully.
 
                     OR
 
-                    YOU SETUP AN SSH KEY AON YOU MACHINE TO CONNECT TO GITHUB... THIS I VERY VERY ImPORTANT IT REGISTERS YOU COMPUTER ALONE SO THAT GITHUB CAN IDENTIFY IT... IT CAN BE FOUND IN THE NEXT 2 LECTURES
+                    In my case I had Setup SSH in my GitHub so unless I activated my machine to link
+
+                    YOU SETUP AN SSH KEY ON YOUR MACHINE TO CONNECT TO GITHUB... THIS IS VERY VERY IMPORTANT BECAUSE IT REGISTERS YOUR COMPUTER ALONE SO THAT GITHUB CAN IDENTIFY IT... IT CAN BE FOUND IN THE NEXT 2 LECTURES
+                        --------------------------------------------------------------------------
+                        05_from_local_to_remote_understanding_github/07_setting_up_ssh_keys_github
+                        --------------------------------------------------------------------------
 
 
 

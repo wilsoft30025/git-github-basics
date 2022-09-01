@@ -13,20 +13,18 @@
                 remotes/origin/main
                 -------------------------------
 
-            For LOCAL branch delete we use the ff. command
+            For LOCAL branch DELETE we use the ff. command
                 ---------------------
                 git branch -D feature
                 ---------------------
 
-            For REMOTE TRACKING branch delete we use the ff. command
+            For REMOTE TRACKING branch DELETE we use the ff. command
                 --------------------------------------------
                 git branch --delete --remotes origin/feature
                 --------------------------------------------
 
-            For REMOTE branch (eg. GitHub) delete we use the ff. command
+            For REMOTE branch (eg. GitHub) DELETE we use the ff. command
                 --------------------------------
                 git push origin --delete feature
                 --------------------------------
-
-
 */

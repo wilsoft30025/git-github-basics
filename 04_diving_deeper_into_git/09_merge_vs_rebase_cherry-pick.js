@@ -4,7 +4,7 @@
         Merge (non fast-forward)
         ---
             -> Create merge commit
-                ...New commit
+                ...New commit is created
 
         Rebase
         ---
@@ -13,6 +13,6 @@
 
         Cherry-Pick
         ---
-            -> Add specific commit to branch (HEAD)
+            -> Add Specific commit to a Specific Branch (HEAD)
                 ...Copies commit with new ID
 */

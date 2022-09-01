@@ -3,13 +3,16 @@
     ---
 
         How does Cherry-Pick be compared to Merge?
-            Let's say we have a project with a workind directory with 2 branches i.e "* master" and "feature". We worked on worked on an update for both and finally commited it for final merge...
+            Let's say we have a project with a working directory with 2 branches 
+                i.e 
+                    "* master" and "feature" 
+                    We worked on an update for both and finally commited it for final merge...
 
-            Let's say you want to merge a specific commit and only incorporate changes made in that commit alone. Copy the specific commit ID and the Switch to the master branch and use the command below;
+            Let's say you want to merge a SPECIFIC commit and only incorporate changes made in that commit alone. 
+            
+            Copy the specific commit ID and the Switch to the MASTER branch and use the command below;
                 --------------------------------------------------------
                 git cherry-pick caaf808f98b6355658d85639100117e83a4aee59
                 --------------------------------------------------------
                     When successful, you will get a success message
-
-
 */

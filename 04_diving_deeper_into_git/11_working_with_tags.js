@@ -5,15 +5,17 @@
 
             Light Weight Tag:
             ----
-                A pointer towards a commit in a branch i.e like the branch itself
+                A pointer towards a commit in a branch 
+                    i.e like the branch itself
 
             Annotated Tag:
             ----
-                It's a full object in Git. i.e it contains a lot of information like
-                    ...email of the person who added this tag
+                It's a full object in Git. 
+                    i.e it contains a lot of information like
+                        ...email of the person who added this tag
 
 
-        To CHECK all the Tags you have in your project use the ff. command
+        To CHECK all the TAGS you have in your project use the ff. command
             -------
             git tag
             -------
@@ -56,8 +58,5 @@
         To REMOVE / DELETE Light-weight Tags, use the ff command
             --------------
             git tag -d 1.0
-            --------------
-
-
-    
+            --------------   
 */

@@ -4,19 +4,19 @@
         Let's say we have the following,
             Local Branch
             ---
-                Branch on your machine only
+                Branch on your LOCAL MACHINE
 
             Remote Branch
             ---
-                Branch in remote location (eg. in GitHub)
+                Branch in REMOTE location (eg. in GitHub)
 
         Besides the Branches above we have OTHER branches
-            Tracking Branche
+            TRACKING Branches
             ---
-                ...this ia all about exchanging information between the Local and the Remote branch
+                ...this ia all about EXCHANGING information between the LOCAL and the REMOTE branch
 
                     Remote Tracking Branch
-                        ...this is a local copy of remote branch (not to be edited)
+                        ...this is a LOCAL COPY of REMOTE branch (not to be edited)
                                 -> we can get the Latest State of the remote branch by using the command "git fetch"
 
                 NOTE:
@@ -33,13 +33,12 @@
         HOW ARE REMOTE AND LOCAL TRACKING BRANCHES CONNECTED
         ---
             Remote Branch (cloud)
-            |
+            ↓
             git fetch (update) 
-            |
+            ↓
             Remote Tracking Branch (Local cache of remote branch's content)
-            |
+            ↓
             git merge
-            |
+            ↓
             Local Tracking Branch (Remote repository's name ("origin") and branch name can be ommited)
-
 */

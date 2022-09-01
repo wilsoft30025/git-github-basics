@@ -9,7 +9,7 @@
         -------------
         git branch -a
         -------------
-            ... list all branches (local and remote tracking branches)
+            ... list all branches (All local and remote tracking branches)
 
         -------------
         git branch -r

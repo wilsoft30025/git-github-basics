@@ -1,7 +1,7 @@
 /* 
     REBASE (git rebase)
     -------
-        Rebase in an alternative for the "RECURSIVE" merge. This is how is works
+        Rebase is an alternative for the "RECURSIVE" merge. This is how it works
 
 
         Let's say we have a "* master" branch 
@@ -40,8 +40,10 @@
                         NOTE:
                             In the REBASE we are able to 
                                 -> make "M.3" becomes new base commit for commits created in the feature branch
+
                                 -> rebase the master to the feature branch
                                     ...so the changes in the feature branch are now based on the latest commit in the master branch
+
                                 -> merge the rabase feature into master
 
                                 IMPORTANT:
@@ -53,7 +55,9 @@
 
         APPLYING "git rebase"
         ----
-            Let's assume we have our project working directory aligning to the above explanation. Let's first switch to our feature branch instead and use the ff command
+            Let's assume we have our project working directory aligning to the above explanation. 
+            
+            Let's first switch to our feature branch instead and use the ff command. Makw sure you are currently in your "features" branch
                 -----------------
                 git rebase master
                 -----------------
@@ -64,19 +68,21 @@
                         Successfully rebased and updated refs/heads/feature
                         -----
 
-                        Take note the rebasing creates new commits and this can cause severe problems if you share project with other people
+                        NOTE: 
+                            Take note the rebasing creates new commits and this can cause severe problems if you share project with other people becasue the history is re-written
 
 
 
     WHEN TO APPLY REBASE
     ---
-        ...New commits in master branch while working in feature branch
+        ...New commits in "master branch" while working in "feature branch"
                 -> Feature relies on addition commits in master branch
                     ... Rebase master into feature branch
+
                 -> Feature is finished - Implementation into master without merge commit
                     ... Rebase master into feature + (fast-forward) merge feature into master
 
 
         IMPORTANT:
-            Remember: Rebasing re-writes code history in your commits with your ids so be very careful when using it in PUBLIC REPOSITORY eg. GitHub
+            Remember: Rebasing re-writes code history in your commits with your ids so be VERY CAREFUL when using it in PUBLIC REPOSITORY eg. GitHub
 */
