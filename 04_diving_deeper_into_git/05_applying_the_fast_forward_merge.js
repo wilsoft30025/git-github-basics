@@ -1,6 +1,14 @@
 /* 
     APPLYING THE FAST-FORWARD MERGE
     ----
+
+    References:
+        How can we merge the "feature" branch into the "master" branch? The "FAST-FORWARD" merge WORKS ONLY IF
+                    IMPORTANT
+                        -------------------------------------------------------------------------------
+                        -> NO ADDITIONAL COMMIT IN MASTER BRANCH (after the FEATURE branch was created)
+                        -------------------------------------------------------------------------------
+
         Let's say you have a Project which is converted into a Working Directory...
 
         Since it's a new project we already have the "* master branch" as the default branch. So Let me commit the changes from here and continue at my new branch.
@@ -27,9 +35,9 @@
                     After all the changes made let's "add it to the staging area" and "commit it"
 
                     Before we MERGE it to the Master we have to SWITCH to the "* master" branch using the ff command
-                        ------------------
-                        git switch feature
-                        ------------------
+                        -----------------
+                        git switch master
+                        -----------------
 
 
                     To MERGE it we use the ff command
@@ -38,30 +46,33 @@
                         -----------------
                             when executed successfully you will get the sample message
 
-                                ------------------------------------------------
+                                ------------------------------------------------------------
                                 Updating 595e676..caaf808
                                     Fast-forward
                                         04_diving_deeper_into_git/05_applying_the_fast_forward_merge.js | 18 ++++++++++++++++++
                                         1 file changed, 18 insertions(+)
-                                ------------------------------------------------
+                                ------------------------------------------------------------
                                     In your message you will see the Merge Type to be "Fast-forward"
 
                                 NOTE:
                                     As discussed in the previous lesson, the Fast-forward has the advantage that 
                                         ...NO new "merge commit" was made in the master branch
-                                        ...with the Fast-forward merge we DON'T create a new commit but we just move the pointer off the HEAD to the Latest commit in the Feature branch
+                                        ...with the Fast-forward merge we DON'T create a new commit but we just MOVE THE POINTER off the HEAD to the Latest commit in the Feature branch
 
                                         After the MERGE if you "log" you will see the HEAD like below
-                                            ------------------------------------------------------------------
+                                            ------------------------------------------------------------------------
                                             commit e969a2c9e1cbd46df9061f0c922a3a3a7f195143 (HEAD -> master,feature)
-                                            ------------------------------------------------------------------
+                                            ------------------------------------------------------------------------
+                                            NOTE:
                                                 This means the HEAD of the "* master" branch was moved forward to the "feature" branch
 
 
 
         ANOTHER METHOD
         ---
-            Let's say we are currently in the "* master" branch, use the ff. command. The "squash" is a "FLAG" for the merge command
+            Let's say we are currently in the "* master" branch, use the ff. command. 
+            
+            The "squash" is a "FLAG" for the merge command
                 --------------------------
                 git merge --squash feature
                 --------------------------

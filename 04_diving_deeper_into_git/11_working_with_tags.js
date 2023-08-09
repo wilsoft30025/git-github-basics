@@ -1,11 +1,11 @@
 /* 
     WORKING WITH TAGS i.e git tags
     ---
-        This helpful command is about tagging commits. TAGS are used to tag important stages in our project history and generally differenciate between LIGHT Weight tags and ANNOTATED tags.
+        This helpful command is about TAGGING commits. TAGS are used to tag important stages in our project history and generally differentiate between LIGHT Weight tags and ANNOTATED tags.
 
             Light Weight Tag:
             ----
-                A pointer towards a commit in a branch 
+                A pointer towards a commit in the branch 
                     i.e like the branch itself
 
             Annotated Tag:
@@ -55,7 +55,7 @@
             ----------------
             
 
-        To REMOVE / DELETE Light-weight Tags, use the ff command
+        To REMOVE / DELETE Light-weight/Annotated Tags, use the ff command
             --------------
             git tag -d 1.0
             --------------   

@@ -1,28 +1,29 @@
 /* 
     UNDERSTANDING GIT STASH (git_stash)
     ----------------------------------------------------------------
-        Let's say you have a project with latest commit and you later keep working on that project... the "stash" is like an INTERNAL MEMORY where you can save "Uncommitted" "Unstaged" changes...
+        Let's say you have a project with latest commit and you later keep working on that project... the "stash" is like an INTERNAL MEMORY where you can save "Uncommitted" "Un-Staged" changes...
 
         Use the ff command
             ---------
             git stash
             ---------
-                Let's assume you were typing something new in your file after your last commit, The moment you execute that command above, what you typed would be cleared and you will be back to your Latest Commit. You will see the ff. messageb below
+                Let's ASSUME you were typing something new in your file AFTER YOUR LAST COMMIT, The moment you execute 
+                "git stash", what you TYPED would be CLEARED and you will be BACK to your LATEST Commit. You will see the ff. message below
                     ----------------------------------------------------------------------------
                     "Saved working directory and index state WIP on master: 2402e4c file1 added"
                     ----------------------------------------------------------------------------
 
-                But if you want to have your changes back then you have to execute the ff. command
+                But if you want to HAVE YOUR CHANGES BACK then you have to execute the ff. command
                     ---------------
                     git stash apply
                     ---------------
-                        you would have your changes back with a message that "changes not staged for commit" displaying the filename which needs to be modified, where you can staged the changes and finally commit the changes if you want to...
+                        you would HAVE YOUR CHANGES BACK back with a message that "CHANGES NOT STAGED FOR COMMIT" displaying the filename which needs to be modified, where you can staged the changes and finally commit the changes if you want to...
 
-                        STASH allows you to SAVE "UNSTAGED" changes and to access these whenever you want todo so. So assuming you modified the file again, and you stash it again and again using "git stash"
+                        NOTE: STASH allows you to SAVE "UN-STAGED" changes and to access these whenever you want todo so. So assuming you modified the file again, and you stash it again and again using "git stash"
 
                         Let's assume we execute the "git stash apply" you will only get the LATEST modified. 
                         
-                        So if we want to see all the "stash" files change, use the ff. comand
+                        So if we want to see all the "stash" files change, use the ff. command
 
                             --------------
                             git stash list
@@ -35,26 +36,29 @@
                                     stash@{1}: WIP on master: 240234c file 1 added
                                     ----------------------------------------------
 
-                                    Now to move to or apply a specific stash use the following command by referring to the index number
+                                    Now to MOVE to or APPLY a SPECIFIC STASH use the following command by referring to the INDEX NUMBER
                                         -----------------
                                         git stash apply 0
                                         -----------------
 
-                            We can add Messages to our stash to know the exact data explaining the specific stash
+                            We can ADD MESSAGES/DESCRIPTION to our stash to know the exact DATA EXPLAINING the specific stash. This will help us IDENTIFY the different data with comments
                                 ------------------------------------
                                 git stash push -m "my message added"
                                 ------------------------------------
 
-                            Assuming after all the "stash" changes, you finally want to add it to your project, use the ff command. After adding successfully, it would be removed from the stash
+                            Assuming after all the "stash" changes, you finally want to ADD IT TO YOUR PROJECT, use the ff command. 
+                            
+                            After adding successfully, it would be removed from the stash
                                 ---------------
                                 git stash pop 0
                                 ---------------
-                                    After executing the above code, you stage it i.e "git add ." and finally commit the changes
+                                    After executing the above code, you stage it 
+                                        i.e "git add ." and finally commit the changes
 
 
                     DELETING A STASH
                     ---
-                        Use the commmand below to delete stash
+                        Use the command below to delete stash (delete individual list)
                             ----------------
                             git stash drop 0
                             ----------------
@@ -62,10 +66,10 @@
 
                         CLEAR ENTIRE STASH
                         ---
-                            Use the commmand below to delete ALL stash
+                            Use the command below to delete ALL stash
                                 ---------------
                                 git stash clear
                                 ---------------
 
-                                    use "git stash list" to confirme if it was cleared successfully
+                                    use "git stash list" to confirm if it was cleared successfully
 */

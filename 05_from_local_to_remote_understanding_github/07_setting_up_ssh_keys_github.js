@@ -1,7 +1,7 @@
 /* 
     SETTING UP SSH KEYS IN GITHUB
     ----------------------------------------------------------------
-    How to transfer files (commits) from our local machine to GitHub in a SECURED WAY is to use SSH!!!
+    How to transfer files (commits) from our LOCAL MACHINE to GitHub in a SECURED WAY is to use SSH!!!
 
     SSH stands for "Secured Shell" and it gives us a means of securely communicating with another machine.
 
@@ -20,7 +20,7 @@
                 Explanation of Above Code
                 ---
                     1. ls: 
-                            this allows us to list all the content of a fiven directory
+                            this allows us to list all the content of a file in directory
                     2. -a:
                             makes sure that hidden files and folders show up
                     3. -l:
@@ -59,7 +59,7 @@
                 -> "Enter file in which to save the key (/Users/wak/.ssh/id_rsa):"? 
                         if you are ok with the default then press enter
 
-                -> if file already exist you can overite
+                -> if file already exist you can override
 
                 -> "Enter passphrase (empty for no passphrase):"? 
                         press enter if you want to use the default

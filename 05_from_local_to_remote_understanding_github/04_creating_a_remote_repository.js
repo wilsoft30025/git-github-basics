@@ -4,11 +4,11 @@
 
     REMOTE REPO - This is a repo hosted in Cloud or Somebody else's server eg. GITHUB
 
-        1. First Login to your GitHub account and click create a repository 
+        1. First Login to your GitHub account and click "CREATE A REPOSITORY"
             -> Before creating a repository there is a link "import a repository", this has nothing to do with git on our local machine but a another Cloud Hosting Provider repository you want to import.
 
-            -> New Repository and give it a "Name"
-                    ...this can be the same name you use in your Git Repository on your local machine
+            -> NEW Repository and give it a "Name"
+                    NOTE: This can be the SAME NAME you use in your Git Repository on your local machine
                     
             -> Description
                     ...you can describe the content of you repo BUT it is OPTIONAL...

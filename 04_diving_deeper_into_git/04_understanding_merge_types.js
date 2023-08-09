@@ -37,14 +37,17 @@
                                             f.3
 
 
-                How can we merge the "feature" branch into the "master" branch? The "FAST-FORWARD" merge works if
+                How can we merge the "feature" branch into the "master" branch? The "FAST-FORWARD" merge WORKS ONLY IF
                     IMPORTANT
                         -------------------------------------------------------------------------------
-                        -> NO ADDITIONAL COMMIT IN MASTER BRANCH (after the feature branch was created)
+                        -> NO ADDITIONAL COMMIT IN MASTER BRANCH (after the FEATURE branch was created)
                         -------------------------------------------------------------------------------
                             i.e 
-                                m.3 in the master branch is the last change there
+                                NOTE: 
+                                    m.3 in the master branch is the last change there
                             
                     -> Merge moves HEAD forward (to f.3) but does not create new commit
-                            ones you are done with the feature branch all commits is done. We just have to tell our master branch that the latest branch in the master branch now is the "f.3 commit in the end"            
+                            Ones you are done with the feature branch all commits is done. 
+                            
+                            We just have to tell our MASTER branch that the latest branch in the master branch now is the "f.3 commit in the end"            
 */

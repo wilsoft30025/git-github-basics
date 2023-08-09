@@ -26,25 +26,25 @@
                         initializes a git command we know already
 
                     "remote add" 
-                        stands for a new remote connection we want to establish from our local repository
+                        stands for a NEW REMOTE CONNECTION we want to establish from our local repository
 
                     "origin URL" 
-                        stands for specific repository we want to connect to
+                        stands for SPECIFIC REPOSITORY we want to connect to
                             -> "origin" means the name of the remote machine or alias/shorthand of the URL of the remote repository
                             -> "URL" is a unique URL to the remote repository on the remote server
 
                         NOTE:
                             "origin" is a name we could change or use a different alias BUT with the purpose of this course we will refer to the origin of this keyword as the SHORTHAND for our URL or Repository
 
-                            Will the above URL, the we will have our connection set
+                            With the above URL, then we will have our connection set
 
-            After the connection has been established, we then have to bring data from our Local Repo to our Cloud Repo. We then use the command
+            After the connection has been established, we then have to bring data from our LOCAL REPO to our CLOUD REPO. We then use the command
                 --------
                 git push
                 --------
                     pushing the Local Data to the Cloud
 
-            We can also create branches in GitHub and this information will be something we want to have Locally in our Repo. For this we use the command below
+            We can also CREATE BRANCHES in GitHub and this information will be something we want to have Locally in our Repo. For this we use the command below
                 --------
                 git pull
                 --------

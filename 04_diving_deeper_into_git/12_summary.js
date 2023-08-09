@@ -3,7 +3,7 @@
     ---
         git stash
         ---
-            Temporary storage for unstaged and uncommitted changes
+            Temporary storage for un-staged and uncommitted changes
 
         git reflog
         ---

@@ -17,12 +17,14 @@
                     -------------------------
                     git merge --no-ff feature
                     -------------------------
-                        when merged successfully, you will see a success messsage saying 
+                        when merged successfully, you will see a success message saying 
+                            -------------------------------------
                             "Merge made by 'recursive' strategy". 
+                            -------------------------------------
                         
                         This strategy is called "non fast-forward"
 
-                    Now wif we check our log "git-log" you will see something interesting, we now have a complete history of the feature file in our master branch i.e. all commits
+                    Now when we check our log "git-log" you will see something interesting, we now have a complete history of the feature file in our master branch i.e. all commits
 
                     Now the latest commit would be named automatically as "Merge branch 'feature' into master". with the commit as follow
                         ----------------------------------------------------------------
@@ -39,15 +41,17 @@
 
         IMPORTANT:
             We use the "Recursive" strategy if
-                ...you have changes in the "feature" branch and if you also have new commits in the "master" branch. 
+                -> you have changes in the "feature" branch and if you also have new commits in the "master" branch. 
                         Meaning the base of the 2 branches is not the same
-                ...additional commits in both the master & feature branch after the feature branch was created
-                ...additional (merge) commit is created in the master branch
+
+                -> additional commits in both the master & feature branch after the feature branch was created
+
+                -> additional (merge) commit is created in the master branch
 
                 NOTE:
                     Even if the above rules were applied in our project and we mistakenly used the command below to merge
                         -----------------
                         git merge feature
                         -----------------
-                            It will intelligently apply the "Recursive" merge because there were changes in the feature branch and commits in the master branch
+                            It will INTELLIGENTLY apply the "RECURSIVE" merge because there were changes in the FEATURE branch and commits in the MASTER branch
 */

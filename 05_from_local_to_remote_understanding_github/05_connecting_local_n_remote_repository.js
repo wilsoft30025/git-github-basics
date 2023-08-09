@@ -1,19 +1,19 @@
 /* 
     CONNECTING LOCAL AND REMOTE REPOSITORY
     ---
-        After creating the Remote Repo for the first time, it becomes Empty with no Data or Branch... Now let's learn how we can push an existing repository from the command line
+        After creating the REMOTE REPO for the first time, it becomes Empty with no Data or Branch... Now let's learn how we can push an existing repository from the command line
 
         In other to push your code from Local to Cloud (GitHub), you have to let your Local repo know about your GitHub Repo (CONNECT THEM)
 
-        Below generated for you By GitHub
+        BELOW generated for you By GitHub
             ...push an existing repository from the command line. Execute the commands below for Fresh Projects
 
             -----------------------------------------------------------------------
             git remote add origin git@github.com:wilsoft30025/git-github-basics.git
             -----------------------------------------------------------------------
-                ...for the first time execute the above code. As we discussed earlier, after executing above, we can then refer to the url using the shorthand "origin"
+                ...for the FIRST TIME execute the above code. As we discussed earlier, after executing above, we can then refer to the url using the shorthand "origin"
 
-                ...this will establish the a between the repos
+                ...this will ESTABLISH the CONNECTION between the REPOS
 
                 ...after pressing enter, you will not see any message whether successful
 
@@ -29,16 +29,19 @@
                 -> the next thing to do is to execute the above command. 
 
                 -> git push
-                        This command means pushing our local information from the local repo to a remote repo
+                        This command means PUSHING our local information from the local repo to a remote repo
 
                 -> -u
-                        This establishes an upstream between a Local Branch and the Remote Branch.
+                        This establishes an UPSTREAM between a Local Branch and the Remote Branch.
 
-                -> "origin" is now a reference to our specific repo unique URL
+                -> "origin" is now a reference to our specific REPO UNIQUE URL
 
                 -> If you did not "rename" the branch previous, you can maintain the name "master" else if you renamed it to "main" then you can execute above
 
-                ... After executing for the First, you will receive an error message that connection cannot be established. With my machine i had this message
+            IMPORTANT:
+                After executing for the FIRST TIME, you will receive an error message that "CONNECTION CANNOT BE ESTABLISHED".
+                
+                With my machine i had this message
                     -----------------------------------------------------------------------------
                     The authenticity of host 'github.com (140.82.121.3)' can't be established.
                     ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
@@ -46,9 +49,27 @@
                     Are you sure you want to continue connecting (yes/no/[fingerprint])? 
                     -----------------------------------------------------------------------------
 
-                    Sometimes it also ask you to "AUTHENTICATE" by Logging in for the First Time OR You create a PersonaL Access Token to serve as a secutrity feature to help push your code successfully.
+                    Sometimes it also ask you to "AUTHENTICATE" by Logging in for the First Time OR You create a PersonaL Access Token to serve as a security feature to help push your code successfully.
 
                     OR
+
+                    You will get the ff message
+                        ----------------------------------------------------------------------------------------------------
+                        git-credential-osxkeychain wants to use your confidential information stored in "github.com" in your keychain
+                        ----------------------------------------------------------------------------------------------------
+                            SOLUTION FOR ABOVE
+                            ---
+
+                            -> On your MAC Machine Open Keychain Access
+                            -> Select Keychains -> login and Category -> Passwords
+                            -> Type github.com in search box, you should see an entry (or entries) of Internet Password kind for github.com. 
+                            -> Right click & Delete them.
+                            
+                            Go back to terminal and retry the git command that requires the password
+                            Type in your git username and password when prompted
+                            Done :)
+
+
 
                     In my case I had Setup SSH in my GitHub so unless I activated my machine to link
 

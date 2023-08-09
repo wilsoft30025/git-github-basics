@@ -5,8 +5,11 @@
         How does Cherry-Pick be compared to Merge?
             Let's say we have a project with a working directory with 2 branches 
                 i.e 
-                    "* master" and "feature" 
-                    We worked on an update for both and finally commited it for final merge...
+                    --------
+                    * master
+                    feature
+                    --------
+                    We worked on an update for both and finally committed it for final merge...
 
             Let's say you want to merge a SPECIFIC commit and only incorporate changes made in that commit alone. 
             
