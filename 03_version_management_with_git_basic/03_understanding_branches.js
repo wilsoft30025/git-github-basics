@@ -1,11 +1,11 @@
 /* 
     UNDERSTANDING BRANCHES & COMMITS
     ---
-        Already we know the Working Directory is our Project Managed by Git... 
+        Already we know the "Working Directory" is our "Project Managed by Git"... 
         
-        If you CREATE the new Git Project with all your FILES and multiple COMMITS, then all these commits will be stored in so called "MASTER BRANCH". 
+        If you CREATE the new Git Project with all your FILES and multiple COMMITS, then all these commits will be stored in so called "MASTER/MAIN BRANCH". 
         
-        You can think of the Master Branch as a folder inside your Git Project and the folder holds all the different versions of your project that you had i.e
+        You can think of the MASTER BRANCH as a folder inside your Git Project and the folder HOLDS ALL THE DIFFERENT VERSIONS of your project that you had i.e
             ...1st commit
             ...2nd commit
             ...3rd commit 

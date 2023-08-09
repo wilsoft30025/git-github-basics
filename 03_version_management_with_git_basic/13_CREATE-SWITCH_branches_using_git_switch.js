@@ -10,20 +10,25 @@
                 to check the current version you are using
 
 
-        SWITCH BRACHES
+        SWITCH BETWEEN BRANCHES
         ---
-            This allows you to "Switch" or "Create" new branches
+            This allows you to "SWITCH" or "CREATE" new branches
                 NOTE:
-                    Switch is purposely for only branches.
+                    Switch is purposely for ONLY branches.
                         ------------------------
                         git switch second-branch
                         ------------------------
 
+                        IMPORTANT:
+                            The main reason why you can use above to SWITCH or CREATE branch that "git checkout" was used for COMMITS and BRANCHES so it was sometimes confusing
+
                         
-        NEW BRANCHES
+        CREATE NEW BRANCHES
         ---
-            To create a New branch using the switch command, use the ff comand
+            To create a NEW BRANCH using the SWITCH command, use the ff command
                  ---------------------------
                  git switch -c fourth-branch
                  ---------------------------
+                    NOTE: 
+                        This command will CREATE and SWITCH to that NEW BRANCH
 */

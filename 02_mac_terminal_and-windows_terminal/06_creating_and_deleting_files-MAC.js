@@ -1,7 +1,7 @@
 /* 
     CREATING FOLDERS
     ---
-        To create a folder we use the command "mkdir"
+        To CREATE a folder we use the command "mkdir"
             meaning "make directory i.e create folder"
                 ----------
                 mkdir Test
@@ -29,7 +29,7 @@
             -----------------------
             rm styles.css script.js
             -----------------------
-                This command deletes the file PERMANENTLY without a prompt. Make sure you decide well before using the command because you cannot find it in the Recycling Bin / Trash
+                This command deletes the file PERMANENTLY without a PROMPT. Make sure you decide well before using the command because you cannot find it in the Recycling Bin / Trash
             
 
 
@@ -40,7 +40,10 @@
             rmdir Test
             ----------
                 NOTE:
-                    Before you can delete a folder, make sure it EMPTY with no files.
+                    Before you can DELETE a folder, make sure it EMPTY with no files. If you try to delete a folder with files inside using the above command, you will get the ff. warning message 
+                        -----
+                        "Directory not empty"
+                        -----
 
-                    See the next lecture for how to remove folders with files inside
+                    See the NEXT LECTURE for how to remove folders with files inside. NOT RECOMMENDED IF YOU ARE A BEGINNER
 */

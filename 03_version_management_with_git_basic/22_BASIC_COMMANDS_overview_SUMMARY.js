@@ -44,9 +44,9 @@
         -----------------------
             Create new commit
 
-        ---------------------
-        git checkout commitid
-        ---------------------
+        ----------------------
+        git checkout commit_id
+        ----------------------
             Checkout commit (detached head!)
 
 
@@ -54,26 +54,26 @@
     BASIC COMMANDS SUMMARY - BRANCH CREATION & ACCESS
     ------------------------------------------------------------------------
 
-        ---------------------
-        git branch branchname
-        git switch branchname     ...only Git 2.23+
-        ---------------------
+        ----------------------
+        git branch branch_name
+        git switch branch_name     ...only Git 2.23+
+        ----------------------
             Create a new branch. But for "switch" if the branch name already exists, we will create a new branch instead
 
-        -----------------------
-        git checkout branchname
-        -----------------------
+        ------------------------
+        git checkout branch_name
+        ------------------------
             Go to a specific branch
 
-        --------------------------
-        git checkout -b branchname
-        git switch -c branchname     ...only Git 2.23+
-        --------------------------
+        ---------------------------
+        git checkout -b branch_name
+        git switch -c branch_name     ...only Git 2.23+
+        ---------------------------
             Create and Access new branch at the same time 
 
-        ---------------------
-        git merge otherbranch
-        ---------------------
+        ----------------------
+        git merge other_branch
+        ----------------------
             Bring other branch's changes to current branch
             
 
@@ -91,7 +91,7 @@
                 All the commands serves the same purpose. Run command after file was deleted from working directory
 
 
-        Unstaged Changes (changes only made in our working directory)
+        Un-Staged Changes (changes only made in our working directory)
         ---
             Meaning we added either an existing file (part of a previous commit and we added more code) or a new file to our working directory. Both cases happened in a way that we did not add new changes to our Staging Area.
 
@@ -114,11 +114,11 @@
         ---
         
             Here we have different options
-                -------------------------
+                ----------------------------------
                 git reset filename             
                 git checkout -- filename 
                 git restore --staged filename or .       ...only Git 2.23+
-                -------------------------
+                ----------------------------------
                     Remove files from staging area
 
             
@@ -139,11 +139,11 @@
                         "hard" reset affects the commit and removes everything
 
 
-        Branches
+        Remove Branches
         ---
         
-            -----------------------
-            git banch -D branchname           
-            -----------------------
+            -------------------------
+            git branch -D branch_name           
+            -------------------------
                 Delete branch
 */

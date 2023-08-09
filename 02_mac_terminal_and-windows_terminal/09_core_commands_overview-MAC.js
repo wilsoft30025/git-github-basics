@@ -1,4 +1,6 @@
 /* 
+COMMAND SUMMARY - MAC
+---
     ---
     pwd
     ---
@@ -14,14 +16,14 @@
     -------
         (change directory)
 
-    ---
-    cd/
-    ---
+    ----
+    cd /
+    ----
         (root directory)
 
-    --------    
-    cd/Users
-    --------
+    ---------    
+    cd /Users
+    ---------
         (users directory)
 
     ----------

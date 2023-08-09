@@ -6,21 +6,23 @@
 
         Git "Controls" & "Track" code changes over time...
 
-        Git is a Tool you download and install on your machine and it allows you to manage your code history and "Track Changes".
+        Git is a Tool you download and install on your machine and it allows you to 
+           -> MANAGE your CODE HISTORY
+           -> TRACK CHANGES
 
         This is a VERSION CONTROL software i.e
-            a Software that runs on your computer which basically allows you to SAVE SNAPSHOTS of your code over time (in different commits and branches) which happens inside a repository. You can go back in time in your code if you need to.
+            a Software that runs on your computer which basically allows you to SAVE SNAPSHOTS of your code over time (in different Commits and Branches) which happens inside a repository. You can go back in time in your code if you need to.
 
         NOTE: 
-            Git can only work on your local machine which is a problem if you loose your computer or travel without your computer. This is where GitHub comes into play...  
+            Git can only WORK on your LOCAL MACHINE which is a problem if you loose your computer or travel without your computer. This is where GitHub comes into play...  
 
         All of this happens inside a REPOSITORY. For each of your project you will create a repository and then you create COMMITS and BRANCHES
 
-        Types of Version Control System
+        TYPES of VERSION CONTROL SYSTEM
         ---
             -> LOCAL Version Control System
                ---
-                    This was the FIRST Version Control system which was introduced into the market. It was maintained and hosted on the Local Developers Machine they are working on. Disadvantage was if the the machine crashes, all data is lost and also collaboaration was a huge nightmare for developers.
+                    This was the FIRST Version Control system which was introduced into the market. It was maintained and hosted on the Local Developers Machine they are working on. Disadvantage was if the the machine crashes, all data is lost and also collaboration was a huge nightmare for developers.
 
             -> CENTRALIZED Version Control System
                ---
@@ -41,7 +43,7 @@
             -> Take "Snapshots" of your file
             -> You decide when to take a snapshot by making a "commit"
             -> You can visit any snapshot at any time
-            -> You can stage files before commiting
+            -> You can stage files before committing
 
         Why should we use GIT
         ---

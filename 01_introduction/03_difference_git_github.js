@@ -12,9 +12,9 @@
         
         GITHUB
         ------
-            -> GitHub is designed as a Git repository hosting service
-            -> It is exclusively Cloud based
+            -> GitHub is designed as a Git Repository Hosting Service
+            -> It is exclusively Cloud Based
             -> Code sharing is easy
-            -> It provides a graphical interface
+            -> It provides a Graphical Interface
             -> In addition to Git features, GitHub provides many other features
 */

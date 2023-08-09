@@ -18,7 +18,7 @@
 
                     In the delete branch command
                         ---
-                        "d" means you can delete the branch only if it is merged with the master
+                        "d" means you can delete the branch only if it is MERGED WITH THE MASTER
                         "D" means FORCE DELETE whether merged or not 
                         ---
 */

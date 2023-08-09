@@ -1,9 +1,9 @@
 /* 
     Installing Visual Studio Code (https://code.visualstudio.com/)
     ---
-        Download and Install for you Operationg System
+        Download and Install for you Operating System
 
-        Quick Tutotrial for Visual Studio Code
+        Quick Tutorial for Visual Studio Code
             ---
             https://www.youtube.com/watch?v=VqCgcpAypFQ
 

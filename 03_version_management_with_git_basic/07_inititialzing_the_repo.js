@@ -5,20 +5,23 @@
 
         Let's say we have a project folder we are currently working on... these are some few git commands and their functions
                --------
-            -> git init
+               git init
                --------
-                every fresh project must start with this command to intialize git so that your project folder can now turn into working directory. After executing the command you get a success message. 
-                Behind the scenes ".git" hidden folder called repository would be created
+                    Every FRESH project must start with this command to initialize git so that your project folder can now TURN into WORKING DIRECTORY. After executing the command you get a success message. 
+                    
+                    Behind the scenes ".git" hidden folder called repository would be created
 
                ----------
-            -> git status
+               git status
                ----------
-                this gives you information about the "working directory". This displays your current branch and all tracked and untracked files. Default you would see that No Commits yet (no snapshot)
+                    This gives you information about the "working directory". This displays your current branch and all tracked and untracked files. Default you would see that No Commits yet (no snapshot)
 
-               ---------
-            -> git add .
-               ---------
-                for files to be tracked we use the command above to do that. This adds the files to ths Staging Area
+                    If your project does not have GIT, then you will get an error message. If that happens use the "git init"
+
+               ---------      ----------
+               git add .  OR  git add -A
+               ---------      ----------
+                for files to be tracked we use the command above to do that. This adds the files to ths STAGING AREA
                     => Add Specific files
                             ------------------------------------
                             git add 07_inititialzing_the_repo.js
@@ -38,18 +41,21 @@
                     m: means message
 
                     NOTE:
-                        After committing for the first time, you will get an error because we have not attached an email for the current user. Git wants to know who we are specifically 
+                        After committing for the first time, you will get an ERROR because we have not attached an email for the current user. 
+                        
+                        Git wants to know who we are specifically i.e ACCOUNT IDENTITY so that other people will know who created the commit...
                             i.e our account identity. Other people can easily detect who created this
-                            ---
+                            ------------------
                             Email and Username
-                            ---
+                            ------------------
 
                             Use the ff commands to do that
 
 
-                            CONFIGURE your Local GIT intallation with NAME and EMAIL used on GITHUB
+                            CONFIGURE your Local GIT installation with NAME and EMAIL used on GITHUB
                             -----------------------------------------------------------------------
-                            NOTE: This is done ONES
+                            IMPORTANT: This is done ONES
+
                                 -> Open your terminal and enter the ff. codes
 
                                     -------------------------------------------------

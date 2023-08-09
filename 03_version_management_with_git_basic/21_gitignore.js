@@ -1,7 +1,7 @@
 /* 
     UNDERSTANDING .gitignore
     ------------------------
-        In real world projects, you may choose not to include some files in your git. This could be some confidential security information wwhich may be private
+        In real world projects, you may choose not to include some files in your git. This could be some confidential SECURITY information which may be private
 
         Git has a feature you can use to ignore such files to be included called .gitignore
 
@@ -15,7 +15,7 @@
                     --------
                         Now add that file name in the .gitignore file
 
-                        Let's assume we want to ignore all .log files, we don't need to specify the one by one but we use the extension with *
+                        Let's assume we want to IGNORE all .log files, we don't need to specify the one by one but we use the extension with *
                             -----
                             *.log
                             -----
