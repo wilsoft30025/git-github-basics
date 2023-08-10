@@ -17,18 +17,19 @@
                       remotes/origin/main
                     -------------------------------
 
+                HINT:
                     Now to create a LOCAL TRACKING BRANCH connected to "remotes/origin/feature-remote" we use the command below
                         -------------------------------------------------------------
                         git branch --track feature-remote-local origin/feature-remote
                         -------------------------------------------------------------
-                            note that the name "feature-remote-local" is not supposed to be like this BUT we chose it for easy understandanding and explanation
+                            note that the name "feature-remote-local" is not supposed to be like this BUT we chose it for easy understanding and explanation
 
                             After pressing the enter key, you get the ff response
                                 ------------------------------------------------------------------------------------------
                                 Branch "feature-remote-local" set up to track remote branch "feature-remote" from "origin"
                                 ------------------------------------------------------------------------------------------
 
-                                Now when we CHECK all our branches again usin "git branch -a" we get the ff results
+                                Now when we CHECK all our branches again using "git branch -a" we get the ff results
                                     -------------------------------
                                     * feature
                                     feature-remote-local          --> this is the "Local Tracking Branch"
@@ -46,22 +47,23 @@
                 ---------------------------------
                 git checkout feature-remote-local
                 ---------------------------------
-                    let's say we switched from our master branch to this local branch and we performed a lot of updates...
+                    let's say we SWITCHED from our "master branch" to this "local branch" and we performed a lot of updates...
 
-                    After the updates we assume we add and commit the changes. After commiting the changes let's assumed we switched to the "Remote Tracking Branch" by using the command below
+                    After the updates we assume we add and commit the changes. After committing the changes let's assumed we switched to the "Remote Tracking Branch" by using the command below
 
-                    ---------------------------------
+                    ------------------------------------------
                     git checkout remotes/origin/feature-remote
-                    ---------------------------------
+                    ------------------------------------------
                         i.e 
                             the red one
 
                         NOTE:
                             After making switching above, it was noticed that the changes was not incorporated
 
-                            So in other to make sure the changes are incorporated, let's switch back to the Local Tracking Branch we created i.e "feature-remote-local" and use the ff. command to push it
-                                --------
-                                git push
-                                --------
-                                    This will also automatically push it to GitHub
+                            So in other to make sure the changes are incorporated, let's switch back to the Local Tracking Branch we created 
+                                i.e "feature-remote-local" and use the ff. command to push it
+                                    --------
+                                    git push
+                                    --------
+                                        This will also automatically push it to GitHub
 */

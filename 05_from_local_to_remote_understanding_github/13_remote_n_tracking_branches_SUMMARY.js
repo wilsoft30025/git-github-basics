@@ -4,17 +4,17 @@
         ----------
         git remote
         ----------
-            ... shows remote servers
+            ... shows remote SERVERS
 
         -------------
         git branch -a
         -------------
-            ... list all branches (All local and remote tracking branches)
+            ... list all branches (All LOCAL and REMOTE tracking branches)
 
         -------------
         git branch -r
         -------------
-            ... show remote tracking branches
+            ... show REMOTE TRACKING BRANCHES
 
         ----------------------
         git remote show origin
@@ -24,12 +24,12 @@
         --------------
         git branch -vv
         --------------
-            ...list local tracking branches and their remotes
+            ...list LOCAL TRACKING BRANCHES and their REMOTES
 
-        -----------------------------------------------
-        git branch --track branchname origin/branchname
-        -----------------------------------------------
-            ...create local tracking branch
+        -------------------------------------------------
+        git branch --track branch_name origin/branch_name
+        -------------------------------------------------
+            ...create LOCAL TRACKING BRANCH
 
 
 
@@ -55,5 +55,6 @@
                                     git pull
 
         NOTE:
-            Clone repository into directory. i.e Get it ti our Local Environment
+            Clone repository into directory. 
+                i.e Get it to our Local Environment.... NEXT LECTURE
 */

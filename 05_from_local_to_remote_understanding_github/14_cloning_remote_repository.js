@@ -1,11 +1,13 @@
 /* 
     CLONING A REMOTE REPOSITORY
     ---
-        What if we want to get access to an Existing Repository from GitHub on our machine?
+        What if we want to GET ACCESS to an EXISTING Repository from GitHub on our machine?
             Let's assume we have an empty folder on our Local Machine called "clone"
 
-        So now navigate to your GitHub repo you want to Clone 
-            ... at the Top-Right you will see a button "Code" click on it
+            Make sure your CLONE Folder is already open in VSCODE
+
+        So now NAVIGATE to your GitHub repo you want to Clone 
+            ... at the Top-Right you will see a button "CODE" click on it
             ... under it you will see clone. Under it we have 3 Tabs
                     1. HTTPS
                     2. SSH
@@ -24,7 +26,7 @@
                                 ----------------------------------------------------------------------
                                     Because we are NOT in a Git Repository in the Direct "CLONE" folder BUT if you navigate into the EXACT folder cloned, it will work very very well
 
-                                    Now you can exute the branch commands and it will work fine
+                                    Now you can execute the branch commands and it will work fine
 
 
         PUSHING Changes to our GitHub

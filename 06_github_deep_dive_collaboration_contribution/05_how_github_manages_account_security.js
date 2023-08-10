@@ -1,7 +1,7 @@
 /* 
     GITHUB SECURITY & ACCESS
     ---
-        When you want to PUSH, we at least need a personal access token. Let's say we have the following
+        When you want to PUSH, we at least need a PERSONAL ACCESS TOKEN. Let's say we have the following
 
             --------------
             Local Git User
@@ -10,25 +10,29 @@
                 ------------------------
                 -> Personal Access Token
                 ------------------------
-                   (This gives us access to GitHub account via Git). Take note that if a wrong person gets access to your token then he automatically gets access to your GitHub account
+                   (This gives us access to the GitHub account via Git). 
+                   
+                   NOTE: 
+                        If a wrong person gets access to your token then he automatically gets access to your GitHub account
 
-                   This is your KEY to GitHub via Git
+                        This is your KEY to GitHub via Git
 
-                   Take note that this is for when you want to contribute to your own project
+                        This is for when you want to contribute to your own project
 
                    NOTE: 
-                        Things become more complicated when you Multiple people want to contribute to your project
+                        Things become more complicated when you have Multiple people want to contribute to your project
 
-                        Now let's differenciate
-                            ---
+                        Now let's differentiate
+                            ---------------------
                             Personal user account
-                            ---
+                            ---------------------
                                 -> Owner Access
                                 -> Collaborator Access
+                                        (eg. a collaborator cloned our project, worked on it and wants to push it back to GitHub)
 
-                            ---
+                            --------------------
                             Part of organization
-                            ---
+                            --------------------
 
             --------------
             GitHub Account

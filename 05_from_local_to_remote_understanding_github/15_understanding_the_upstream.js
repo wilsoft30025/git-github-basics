@@ -5,5 +5,5 @@
                 ----------------------------
                 git push -u origin HEAD:main
                 ----------------------------
-                    -u is upstream meaning...
+                    -u is upstream...
 */
