@@ -19,6 +19,13 @@
                     -------------------------------------------------------------------
                         This will COPY the entire project into our Clone Folder. 
 
+                        HINT:
+                            If you want the FILES rather to be CLONED into your Project BUT not the Project folder use the ff. command
+                                ---------------------------------------------------------------------
+                                git clone https://github.com/wilsoft30025/node3-weather-website.git .
+                                ---------------------------------------------------------------------
+                                    By adding a "SPACE" and "DOT" to the command
+
                         NOTE:
                             After copying if you execute "git status" you will get an error message
                                 ----------------------------------------------------------------------

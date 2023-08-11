@@ -49,9 +49,23 @@
                     Are you sure you want to continue connecting (yes/no/[fingerprint])? 
                     -----------------------------------------------------------------------------
 
-                    Sometimes it also ask you to "AUTHENTICATE" by Logging in for the First Time OR You create a PersonaL Access Token to serve as a security feature to help push your code successfully.
+                --
+                OR
+                --
+                    Sometimes it also ask you to "AUTHENTICATE" by Logging in for the First Time 
+                    (i.e 
+                        GitHub Username and Password {password is Personal Access Token}) 
 
-                    OR
+                        OR 
+                        
+                        You create a PERSONAL ACCESS TOKEN to serve as a security feature to help push your code successfully.
+
+                    HINT:
+                        Personal Access Token mainly happens on WINDOWS OPERATING SYSTEM
+
+                --
+                OR
+                --
 
                     You will get the ff message
                         ----------------------------------------------------------------------------------------------------

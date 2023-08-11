@@ -8,7 +8,7 @@
         HINT:
             In the OWNER's account he will already know that SOME Account Forked his Repo
 
-        To inform the OWNER, we will navigate to the Specific Project Repo,
+        To inform the OWNER, we will navigate to the OWNER's Specific Project Repo,
             -> Go to Pull Request Tab
             -> Click on "New pull request" button
             -> select the "base repository" and "base"
